@@ -36,7 +36,8 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'liscence',
-        message: 'Enter your liscence here:'
+        message: 'Enter your liscence here:',
+        choices: ['The GPL License', 'The MIT License', 'Apache License', 'GNU License', 'Not Applicable']
     },
     {
         type: 'input',
@@ -52,6 +53,21 @@ inquirer.prompt([
         type: 'input',
         name: 'questions',
         message: 'Prompt the user for any further questions.'
+    },    
+    {
+        type: 'input',
+        name: 'GitHub',
+        message: 'Creators Github.'
+    },    
+    {
+        type: 'input',
+        name: 'linkedin',
+        message: 'Creators linked profile.'
+    },    
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Creators e-mail.'
     },
 ])
 .then((answers) => {
