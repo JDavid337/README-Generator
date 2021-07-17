@@ -18,3 +18,6 @@ THEN this is added to the section of the README entitled questions with a link t
 WHEN I click on the links in the table of contents
 THEN I am taken to the corresponding section of the README
 
+A video demonstrating a walk-through of what is should look like when dynamically creating a README using a command-line app can be viewed here:
+
+https://drive.google.com/file/d/1zFTvZAN9TX5pc-0kv5x_o8TNPQzNXyZ0/view
